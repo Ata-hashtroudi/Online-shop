@@ -1,0 +1,6 @@
+.underspace {
+  display: block;
+  margin-top: 40px;
+  height: 10px;
+  overflow: hidden;
+}

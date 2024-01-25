@@ -1,0 +1,251 @@
+.support {
+  width: inherit;
+  height: 350px;
+  /*background-color: aqua;*/
+  text-align: center;
+  margin-bottom: 75px;
+  overflow: hidden;
+}
+.service,
+.delivery,
+.return,
+.warranty {
+  box-sizing: border-box;
+  padding-top: 55px;
+  display: inline-block;
+  width: 350px;
+  height: inherit;
+  /*background-color: aquamarine;*/
+  vertical-align: top;
+}
+.featurebg {
+  width: 350px;
+  height: inherit;
+  position: relative;
+  text-align: center;
+}
+.topicon {
+  width: 100px;
+  height: inherit;
+  display: inline-block;
+  position: relative;
+  top: -260px;
+  left: 0;
+  opacity: 1 !important;
+}
+.title {
+  width: 270px;
+  height: inherit;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  bottom: 255px;
+  font-family: yekan;
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+}
+.discription {
+  width: 240px;
+  height: inherit;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  bottom: 240px;
+  font-family: yekan;
+  font-size: 12px;
+  font-weight: normal;
+  color: gray;
+}
+.topicon img {
+  width: 100px !important;
+  height: inherit;
+  object-fit: cover;
+  opacity: 1 !important;
+}
+.featurebg img {
+  width: 290px;
+  height: inherit;
+  object-fit: cover;
+  opacity: 0.05;
+  transition: 500ms;
+}
+.featurebg:hover img {
+  opacity: 0.25;
+}
+/*---------------------------------*/
+.brands {
+  width: calc(100% + 40px);
+  margin-right: -20px;
+  height: 360px;
+  background-color: #f9f9f9;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 35px;
+  overflow: hidden;
+}
+.toptext4 {
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-family: yekan;
+  font-size: 26px;
+  font-weight: bold;
+  color: #2b2b2b;
+  line-height: 40px;
+}
+.brandslider {
+  width: inherit;
+  margin-top: 15px;
+  margin-right: -20px;
+  height: 170px;
+  text-align: center;
+}
+.brandslider .swiper {
+  margin: 0 auto;
+  width: 1425px;
+  /*background-color: aqua;*/
+}
+.brandslider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: unset;
+  justify-content: center;
+  align-items: center;
+}
+.brandslider .swiper-slide a img {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 45px;
+  object-fit: cover;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+.brands a .showmore {
+  width: 270px;
+  height: 50px;
+  margin-top: -15px;
+  border-radius: 50px;
+  background-color: #f9f9f9;
+  border-color: rgb(190, 190, 190);
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  display: inline-block;
+  transition: 300ms;
+}
+.brands a .showmore p {
+  text-decoration: unset;
+  font-family: yekan;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2cb172;
+  line-height: 50px;
+  transition: 300ms;
+}
+.brands a .showmore:hover p {
+  color: #2fc780;
+}
+.brands a .showmore:hover {
+  border-color: #2fc780;
+}
+/*---------------------------------*/
+.banimag {
+  width: 1425px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 65px;
+  padding-bottom: 35px;
+  height: 570px;
+  /*background-color: aqua;*/
+  text-align: center;
+}
+.magslider {
+  width: inherit;
+  height: 370px;
+  /*background-color: aquamarine;*/
+}
+.toptext5 {
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-family: yekan;
+  font-size: 26px;
+  font-weight: bold;
+  color: #2b2b2b;
+  line-height: 20px;
+}
+.banimag a .showmore {
+  width: 270px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: white;
+  border-color: rgb(190, 190, 190);
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  display: inline-block;
+  transition: 300ms;
+}
+.banimag a .showmore p {
+  text-decoration: unset;
+  font-family: yekan;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2cb172;
+  line-height: 50px;
+  transition: 300ms;
+}
+.banimag a .showmore:hover p {
+  color: #2fc780;
+}
+.banimag a .showmore:hover {
+  border-color: #2fc780;
+}
+.magslider .swiper {
+  margin: 0 auto;
+  width: 1425px;
+  border-radius: unset;
+  /*background-color: bisque;*/
+}
+.magslider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: unset;
+  justify-content: center;
+  align-items: center;
+  /*background-color: blueviolet;*/
+}
+.magslider .swiper-slide a img {
+  width: 330px;
+  height: auto;
+  margin: 0 auto;
+  /*margin-top: 45px;*/
+  object-fit: cover;
+  margin-bottom: 25px;
+  border-radius: unset;
+}
+.magslider .swiper-slide a {
+  text-decoration: none;
+}
+.magslider .swiper-slide a p {
+  display: block;
+  width: inherit;
+  text-align: start;
+  height: 30px;
+  font-family: yekan;
+  font-size: 15px;
+  font-weight: bold;
+  color: #2b2b2b;
+  line-height: 30px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: 300ms;
+}
+.magslider .swiper-slide a p:hover {
+  color: #2fc780;
+}
